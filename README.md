@@ -12,6 +12,8 @@ Once the software that was to be used was decided, the process of transforming a
 
 # Data Visualisation and Dashboards
 After pulling the data and accurately producing equations to draw the necessary metrics, consideration turned to how to best visualise the data in a way that provided meaningful insight using descriptive analytics for the stakeholders while maintaining readability.  The initial proposal was a PowerBI dashboard providing visualisations of the data in a readable format. However as this was developed issues became clear, such as the number of free text responses that, while traditionally would be filtered out, were displayed on the visuals increasing visual clutter along with adding confusion. 
+
+![Graph](https://github.com/DataScienceApprentice5434/Internal-Data-Project/blob/main/images/Graph.png)
  
 This resulted in the PowerBI dashboard being discontinued, instead opting for trialling a Excel Pivot Chart approach. This however also was discontinued as flaws began to present. While Pivot Chart connected directly to the dataset, which sat in an XLSX File following transformation from a CSV to allow for Excel equations, creating multiple visualisations referring to different segments of the data was inefficient and led to confusion. As such, the approach that was most successful were simple Excel tables of the data alongside KPIs such as “in scope” staff to allow effective comparison from an initial look without the need to dissect graphs to determine the statistic required. This was especially important due to the stakeholders of the report being high level managerial positions which would not have the time to drill down and dissect graphs to pull the actionable insight they need. 
 
